@@ -1,0 +1,46 @@
+1.Pseudocode
+
+  STORE "resultan" without any values
+  STORE "m" with 600
+  STORE "a" with 2
+  CALCULATE "resultan" AS m*a
+  DISPLAY "resultan"
+
+
+2. Pseudocode
+
+STORE "year" with 1996
+IF `year` divisble by 4 THEN:
+    IF `year` not divisble 100 THEN
+        DISPLAY "`year is leap year"
+    ELSE IF `year` divisible by 100 THEN:
+        DISPLAY "year is leap year"
+    ELSE IF `year` divisible by 400 THEN:
+        DISPLAY " year is leap year"
+    ELSE
+        DISPLAY "year is not leap year"
+    ENDIF
+    ENDIF
+    ENDIF
+ELSE
+  DISPLAY "year is not leap year"
+ENDIF
+
+3. Pseudocode
+
+STORE "clothes" with 0
+
+WHILE "clothes" < 20
+  ADD "clothes" by 1
+
+DISPLAY "washing machine on !"
+
+4. Pseudocode
+
+STORE "students" with 40
+
+IF nails long THEN
+    DISPLAY "get punishment"
+ ELSE
+    DISPLAY "get compliment"
+END IF
