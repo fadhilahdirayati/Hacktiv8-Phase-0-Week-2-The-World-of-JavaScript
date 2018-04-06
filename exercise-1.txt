@@ -9,22 +9,17 @@
 
 2. Pseudocode
 
-STORE "year" with 1996
-IF `year` divisble by 4 THEN:
-    IF `year` not divisble 100 THEN
+STORE year with any value
+IF year module 4 is 0 THEN
+    IF year module 100 is 0 THEN
         DISPLAY "`year is leap year"
-    ELSE IF `year` divisible by 100 THEN:
+    ELSE IF year module 400 is 0 THEN
         DISPLAY "year is leap year"
-    ELSE IF `year` divisible by 400 THEN:
-        DISPLAY " year is leap year"
     ELSE
         DISPLAY "year is not leap year"
-    ENDIF
-    ENDIF
-    ENDIF
-ELSE
-  DISPLAY "year is not leap year"
 ENDIF
+
+
 
 3. Pseudocode
 
@@ -34,6 +29,7 @@ WHILE "clothes" < 20
   ADD "clothes" by 1
 
 DISPLAY "washing machine on !"
+
 
 4. Pseudocode
 
