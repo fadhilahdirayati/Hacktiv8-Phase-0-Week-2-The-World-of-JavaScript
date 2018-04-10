@@ -33,8 +33,10 @@ DISPLAY "washing machine on !"
 
 4. Pseudocode
 
-STORE "students" with 40
+STORE "students" with anyvalue
 
+WHILE "students" >= 40
+  DISPLAY "Check Nails"   
 IF nails long THEN
     DISPLAY "get punishment"
  ELSE
